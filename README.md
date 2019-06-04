@@ -1,4 +1,4 @@
-# Corporate Web site
+# Gastronomia
 
 Use the latest HTML5 and CSS3 to add unique styling to Bootstrap
 
