@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Nosotros</title>
+    <title> </title>
 </head>
 
 <body>
@@ -27,11 +27,11 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse flex-column flex-sm-row justify-content-md-end text-center" id="nav_principal">
-                            <a href="nosotros.html" class="nav-link active">Nosotros</a>
+                            <a href="nosotros.html" class="nav-link">Nosotros</a>
                             <a href="blog.html" class="nav-link">Blog</a>
                             <a href="clases.html" class="nav-link">Clases</a>
                             <a href="galeria.html" class="nav-link">Galería</a>
-                            <a href="contacto.html" class="nav-link">Contacto</a>
+                            <a href="contacto.html" class="nav-link active">Contacto</a>
                         </div>
                     </nav>
                 </div>
@@ -40,42 +40,48 @@
     </header>
 
     <div class="container">
-        <div class="row imagen-destacada nosotros-bg"></div>
+        <div class="row imagen-destacada contacto-bg"></div>
     </div>
 
     <main class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 bg-white contenido-nosotros py-3 px-5">
-                <h2 class="separador text-center my-5">Nosotros</h2>
+                <h2 class="separador text-center my-5">Contacto</h2>
+                <form action="#">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Tu Nombre">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group ">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" class="form-control" name="telefono" id="telefono" aria-describedby="helpId" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <!--.col-md-6-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="mail">E-mail</label>
+                                    <input type="tel" class="form-control" name="mail" id="mail" aria-describedby="helpId" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <!--.col-md-6-->
+                        </div>
+                        <!--.row-->
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+                        </div>
 
-                <p>Donec dignissim tincidunt fermentum. Aenean hendrerit auctor vestibulum. Quisque in nulla gravida, commodo quam ac, commodo magna. Nulla facilisi. Vestibulum commodo mattis orci, a dignissim nunc.</p>
-
-                <p>Donec venenatis turpis at convallis sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-
-                <p>Donec dignissim tincidunt fermentum. Aenean hendrerit auctor vestibulum. Quisque in nulla gravida, commodo quam ac, commodo magna. Nulla facilisi. Vestibulum commodo mattis orci, a dignissim nunc.</p>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Enviar">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-
-        <section class="nosotros mt-5">
-            <h2 class="separador text-center mb-5">¿Porqué estudiar con nosotros?</h2>
-            <div class="row align-items-center">
-                <div class="col-md-4 text-center informacion">
-                    <img src="img/icono_chef.png" class="img-fluid mb-3">
-                    <h3>Chef’s Especialistas</h3>
-                    <p>Los mejores chef’s que han trabajado en los mejores restaurants de Europa</p>
-                </div>
-                <div class="col-md-4 text-center informacion">
-                    <img src="img/icono_vino.png" class="img-fluid mb-3">
-                    <h3>Incluye todo sobre Bebidas</h3>
-                    <p>Además de la cocina, incluimos en el programa todo lo relacionado a bebidas.</p>
-                </div>
-                <div class="col-md-4 text-center informacion">
-                    <img src="img/icono_menu.png" class="img-fluid mb-3">
-                    <h3>Siempre Actualizado</h3>
-                    <p>El Programa se actualiza constamemente con nuevos platillos y técnicas.</p>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer p-5">
